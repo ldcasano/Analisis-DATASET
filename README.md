@@ -1,18 +1,6 @@
 # Conclusiones 
 
-Se realiza un cotro analisis sobre las diferente variables del dataset "Métricas de una Marca de Cosméticos"  y se determina la Variable  'Total Interation' como el objetivo del analisis univariado. lo anterior dado que esta Variable define el exito de la publicacion, determinando la participacion de los ususarios con la misma. 
-
-Analisis Univariado 
-
-Se determinó que no existen datos nulos o faltantes en la variable objetivo, por lo que se procedió a analizar la cantidad de datos disponibles, encontrando un total de 500 registros. Se revisaron los 5 primeros y los 5 últimos registros.
-
-Posteriormente, se realizó un análisis descriptivo de los estadísticos más comunes, lo que permitió inferir la presencia de datos atípicos al  observar que la mayoría de los registros se concentra entre 71 y 228 interacciones.
-
-Razón por la cual ser realiza  el análisis del rango intercuartil para determinar cuales son los datos atipicos. Tras contar estos registros, se identificaron 40 
-
-Para dar mayor relevancia a lo encontrado se realizan dos graficos, el primero es un historgrama que muestra que la distribucion de los datos no es normal ya que carece de simetria y centralidad  . Y el segundo grafico es un diagrama e caja que muestra una cantidad importante de outliers
-
-En conclusion encontramos  que necesitamos un analisis multivariado para entrar a determinar que se va a hacer con los posibles datos atipicos ya que estos por si solos no ns permiten hacer inferencias sobre el Dataset
+Para el análisis univariado, se utilizó un dataset de un banco portugués con 45,211 registros y 17 columnas, enfocado en la efectividad de campañas de marketing para nuevos créditos. La columna objetivo, "poutcome", indica si una campaña fue efectiva o fallida. Se encontraron 36,959 valores nulos en esta columna, que fueron eliminados, reduciendo el dataset a 6,412 registros. Además, se eliminaron registros etiquetados como "otros" para mayor claridad. La columna objetivo se transformó en variables numéricas, codificando campañas fallidas como 0 y exitosas como 1. El análisis reveló 1,488 campañas exitosas y 4,850 fallidas. Los gráficos mostraron que el 76.5% de las campañas fueron fallidas y el 23.5% efectivas, proporcionando información valiosa sobre la efectividad de las campañas y posibles áreas de mejora en marketing.
 
 
 
