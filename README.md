@@ -7,4 +7,6 @@ Se utilizó un dataset de un banco portugués con 45,211 registros y 17 columnas
 
 # ANALISIS BIVARIADO
 
+Aunque no se encontraron correlaciones significativas entre las variables del dataset que permitieran predecir si una campaña de marketing es efectiva o no, se lograron establecer varias conclusiones valiosas. En particular, se determinó que los retirados, desempleados y estudiantes tienen una proporción similar de campañas fallidas y efectivas.
 
+Adicionalmente, se observó que los trabajadores en el sector blue-collar y los de management fueron quienes recibieron el mayor número de intentos de comunicación, y también presentaron la mayor cantidad de campañas fallidas. Estos fueron seguidos por los trabajadores en las categorías de admin y technician.
