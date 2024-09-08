@@ -10,3 +10,19 @@ Se utilizó un dataset de un banco portugués con 45,211 registros y 17 columnas
 Aunque no se encontraron correlaciones significativas entre las variables del dataset que permitieran predecir si una campaña de marketing es efectiva o no, se lograron establecer varias conclusiones valiosas. En particular, se determinó que los retirados, desempleados y estudiantes tienen una proporción similar de campañas fallidas y efectivas.
 
 Adicionalmente, se observó que los trabajadores en el sector blue-collar y los de management fueron quienes recibieron el mayor número de intentos de comunicación, y también presentaron la mayor cantidad de campañas fallidas. Estos fueron seguidos por los trabajadores en las categorías de admin y technician.
+
+
+# PREPARACION DE LOS DATOS 
+En la preparación de los datos, primero se realizaron las siguientes transformaciones:
+
+Dumificación: Se crearon variables dummy para aquellas variables categóricas con solo dos respuestas posibles:
+
+poutcome (éxito o fracaso),
+contact (celular o teléfono),
+housing (propietario de vivienda o no),
+loan (con o sin préstamo).
+Normalización: Las columnas numéricas balance, pdays, age, day, duration y previous se normalizaron dividiendo cada valor por el máximo de su respectiva columna.
+
+Codificación ordinal (cart codes): Las variables categóricas con más de dos niveles, como job, education, marital y month, se codificaron de manera adecuada para ser incluidas en el análisis.
+
+Con las variables correctamente dumificadas, normalizadas y codificadas, el dataset está listo para analizar correlaciones y probar diferentes modelos de machine learning.
