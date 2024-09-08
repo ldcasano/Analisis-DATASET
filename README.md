@@ -26,3 +26,12 @@ Normalización: Las columnas numéricas balance, pdays, age, day, duration y pre
 Codificación ordinal (cart codes): Las variables categóricas con más de dos niveles, como job, education, marital y month, se codificaron de manera adecuada para ser incluidas en el análisis.
 
 Con las variables correctamente dumificadas, normalizadas y codificadas, el dataset está listo para analizar correlaciones y probar diferentes modelos de machine learning.
+
+
+
+# ANALISIS COMPLETO DEL DATASET
+
+
+Para realizar un análisis completo del dataset, una vez normalizados los datos, se procede a identificar posibles correlaciones entre las variables. En un primer paso, se calcula la correlación de Pearson, la cual indica que no existen correlaciones significativas. A continuación, se calculan las correlaciones de Spearman y Kendall para identificar posibles relaciones no lineales entre las variables, pero estos análisis tampoco revelan correlaciones fuertes.
+
+Dado este escenario, se hace difícil identificar qué variables son clave para que la campaña sea exitosa. Como último paso, se construye un modelo de árbol de decisión, el cual revela que las variables más importantes para la clasificación son "pdays" y "housing". Sin embargo, el modelo muestra un sesgo hacia la clase "No", lo que sugiere la necesidad de aplicar técnicas para manejar el desbalance en los datos y mejorar la predicción de la clase "Yes".
